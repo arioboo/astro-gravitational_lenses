@@ -1,0 +1,17 @@
+# HACER UNO DE LOS SIGUIENTES COMANDOS EN ESTE DIRECTORIO 
+spyder irs*.py aux.py function_params.py aux.py &
+
+
+spyder irs0.py aux.py *_params.py source.py lens.py &
+
+
+# Como sabemos, '*' se refiere a cualquier cadena de caracteres posible.
+
+# eog '*.png'   # Verá todas las imágenes '.png' disponibles
+
+# eog 'P*.png'  # Lo mismo, pero empezando por 'P' (lente puntual)
+
+# eog {lc*,1Dcut*}.png  # Los brackets significan posibles opciones, verá las curvas de luz y los #cortes 1D en los mapas de magnificación 
+
+#Para ver las binarias:
+# eog {1Dcut_,lc_}{L,9}*.png
